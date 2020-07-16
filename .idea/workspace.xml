@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c595c5b-c32e-4d88-8374-aa8606bea40a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/mainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/utils.js" afterDir="false" />
+    <list default="true" id="5c595c5b-c32e-4d88-8374-aa8606bea40a" name="Default Changelist" comment="added header, access to the database, generation of buttons with db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +85,16 @@
       <option name="presentableId" value="Default" />
       <updated>1594908708062</updated>
       <workItem from="1594908709200" duration="165000" />
-      <workItem from="1594908952877" duration="6154000" />
+      <workItem from="1594908952877" duration="10904000" />
     </task>
+    <task id="LOCAL-00001" summary="added header, access to the database, generation of buttons with db">
+      <created>1594915352013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594915352013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,26 +111,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added header, access to the database, generation of buttons with db" />
+    <option name="LAST_COMMIT_MESSAGE" value="added header, access to the database, generation of buttons with db" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594913894462">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594913894462" />
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1594909597074">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1594923296920">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594909597074" />
-    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1594909597074">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594923296920" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1594923296920">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594909597074" />
-    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1594909597074">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594923296920" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1594923296919">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594909597074" />
-    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1594909597074">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594923296919" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1594923296920">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594909597074" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594923296920" />
   </component>
 </project>

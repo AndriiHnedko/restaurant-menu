@@ -17,6 +17,21 @@ const getDishType = () => {
     return Array.from(new Set(dishType))
 }
 
-export {getDishType}
+const getDishSubtype = () => {
+    const dish = getElementsFromDB()
+    const dishType = getDishType()
+    const dishSubtype = {}
+    dishType.forEach(elem => {
+        dishSubtype[elem] = new Array(0)
+        for (let key in dish) {
+            if (elem === dish[key].dishType) {
+                dishSubtype[elem].push(dish[key].dishSubtype)
+            }
+        }
+    })
+    return dishSubtype
+}
+
+export {getDishType, getDishSubtype}
 
 

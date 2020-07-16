@@ -1,6 +1,6 @@
 import {getDishType} from './utils'
 
-const getDishTypeList = (root) => {
+const createDishTypeBtn = root => {
     const dishType = getDishType()
     dishType.forEach(e => {
         root.innerHTML += `
@@ -9,4 +9,4 @@ const getDishTypeList = (root) => {
     })
 }
 
-export {getDishTypeList}
+export {createDishTypeBtn}
