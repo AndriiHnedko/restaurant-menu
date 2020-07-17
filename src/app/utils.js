@@ -32,6 +32,10 @@ const getDishSubtype = () => {
     return dishSubtype
 }
 
+const getDish = dishType => {
+
+}
+
 export {getDishType, getDishSubtype}
 
 
