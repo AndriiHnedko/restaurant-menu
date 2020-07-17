@@ -10,7 +10,7 @@ const getMainPage = () => {
     return `
       <div class="row" id="dish-list">
         <div class="col s12" id="dish-list-tab">
-          <ul class="tabs" id="tabs-swipe-demo"></ul>
+          <ul class="tabs"></ul>
         </div>
       </div>
     `
@@ -20,10 +20,7 @@ const logicMainPage = () => {
     document.addEventListener('DOMContentLoaded', () => {
         createDishTypeTab()
         let elems = document.querySelectorAll('.tabs')
-        let option = {
-            swipeable: true
-        }
-        let instance = M.Tabs.init(elems, option)
+        let instance = M.Tabs.init(elems)
         getTabContent(dishType, dishSubtype, dishList)
     })
 
@@ -47,7 +44,7 @@ const createDishTypeTab = () => {
 
     dishType.forEach(elem => {
         dishList.innerHTML += `
-            <div id="${elem}" class="col s12"></div>
+            <div id="${elem}" class="col s12 tabs-window"></div>
         `
     })
 

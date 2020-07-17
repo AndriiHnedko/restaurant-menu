@@ -17,8 +17,6 @@ const getTabContent = (dishType, dishSubtype, dishList) => {
 
         })
     })
-
-
 }
 
 export {getTabContent}
