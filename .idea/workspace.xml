@@ -19,18 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c595c5b-c32e-4d88-8374-aa8606bea40a" name="Default Changelist" comment="change dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/restaurant-menu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="5c595c5b-c32e-4d88-8374-aa8606bea40a" name="Default Changelist" comment="added tabs">
+      <change afterPath="$PROJECT_DIR$/src/app/tabsContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +87,7 @@
       <updated>1594908708062</updated>
       <workItem from="1594908709200" duration="165000" />
       <workItem from="1594908952877" duration="10904000" />
-      <workItem from="1594991907691" duration="6850000" />
+      <workItem from="1594991907691" duration="10724000" />
     </task>
     <task id="LOCAL-00001" summary="added header, access to the database, generation of buttons with db">
       <created>1594915352013</created>
@@ -110,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594991951976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added tabs">
+      <created>1594998865121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594998865121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +131,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added header, access to the database, generation of buttons with db" />
     <MESSAGE value="change dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dependencies" />
+    <MESSAGE value="added tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tabs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594913894462">
@@ -154,9 +155,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594992110820" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594991976074">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594998869572">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594991976074" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-135.1680.1020@0.0.1536.834" timestamp="1594998869572" />
   </component>
 </project>

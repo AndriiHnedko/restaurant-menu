@@ -36,6 +36,6 @@ const getDish = dishType => {
 
 }
 
-export {getDishType, getDishSubtype}
+export {getDishType, getDishSubtype, getElementsFromDB}
 
 
