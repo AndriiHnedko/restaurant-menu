@@ -4,8 +4,18 @@
   padding: 0;
 }
 
-.tabs-window {
-  border: 1px solid red;
-  height: 70vh;
-  overflow-y: scroll;
+.collection-item {
+  h5 {
+    font-weight: bold;
+    margin: 0;
+  }
+  .description {
+    padding-left: 0;
+  }
+  .weight-price {
+    padding: 0;
+  }
+  strong {
+    font-size: 1.2em;
+  }
 }
