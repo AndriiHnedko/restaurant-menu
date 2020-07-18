@@ -1,12 +1,25 @@
 @import "~materialize-css/sass/materialize";
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 #dish-list-tab {
   padding: 0;
+  position: sticky;
+  top: 56px;
+  @media (min-width: 600px) {
+    top: 64px;
+  }
+  z-index: 100;
 }
+
 
 .collection-item {
   h5 {
-    font-weight: bold;
+    font-weight: 500;
     margin: 0;
   }
   .description {
